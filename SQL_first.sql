@@ -1,4 +1,4 @@
-/*
+
 CREATE table check_dates(
 	date_id SERIAL PRIMARY KEY,
 	check_date date
@@ -19,7 +19,7 @@ begin
    end loop;
 end; 
 $$;
-*/
+
 
 SELECT *
 FROM check_dates
